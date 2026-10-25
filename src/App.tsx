@@ -6,7 +6,6 @@ import {
   ArrowRight,
   ArrowUpRight,
   BookOpen,
-  Cat,
   Check,
   ChevronDown,
   Heart,
@@ -172,7 +171,7 @@ function App() {
 
       <header className="site-header">
         <a className="brand" href="#inicio" aria-label="Gatitools, ir al inicio">
-          <span className="brand-mark"><Cat size={23} strokeWidth={2.1} /></span>
+          <span className="brand-mark"><img className="brand-logo" src="/gatitools-logo.png" alt="" fetchPriority="high" /></span>
           <span>gati<span>tools</span><small>club de gatos curiosos</small></span>
         </a>
         <nav className="primary-nav" aria-label="Navegacion principal">
@@ -205,7 +204,6 @@ function App() {
         <section className="hero-section">
           <div className="hero-copy">
             <p className="eyebrow"><span className="eyebrow-dot" /> OBJETOS PARA VIDAS CON BIGOTES</p>
-            <h1>El mundo es suyo.<br /><em>La casa tambien.</em></h1>
             <h1>El mundo es suyo.<br /><em>La casa también.</em></h1>
             <p className="hero-description">Pequeños grandes hallazgos para que tu gato viva a su manera: cómodo, curioso y un poquito consentido.</p>
             <div className="hero-actions">
@@ -368,7 +366,7 @@ function App() {
       </main>
 
       <footer className="site-footer">
-        <a className="brand footer-brand" href="#inicio"><span className="brand-mark"><Cat size={22} /></span><span>gati<span>tools</span><small>club de gatos curiosos</small></span></a>
+        <a className="brand footer-brand" href="#inicio"><span className="brand-mark"><img className="brand-logo" src="/gatitools-logo.png" alt="" loading="lazy" /></span><span>gati<span>tools</span><small>club de gatos curiosos</small></span></a>
         <p>Hecho para quienes comparten el sofa.</p>
         <div className="footer-links"><a href="#tienda">Tienda</a><a href="#wiki">Wiki felina</a><a href="#noticias">Noticias</a></div>
         <span className="copyright">© 2026 GATITOOLS</span>
